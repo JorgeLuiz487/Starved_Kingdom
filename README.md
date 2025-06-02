@@ -7,7 +7,7 @@ os assetds também serão postados eventualmente em: https://www.instagram.com/j
 ## Como rodar o projeto
 
 ```bash
-git clone https://github.com/JorgeLuiz487/projeto_Damas
-cd tabuleiro-damas
+git clone https://github.com/JorgeLuiz487/proj_jogo
+cd proj_jogo
 npm install
 npm run dev
