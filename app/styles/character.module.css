@@ -1,0 +1,172 @@
+.charactersWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .action_row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+.character_container {
+  display: flex;
+  justify-content: flex-start; /* Puxa tudo para a esquerda */
+  padding-left: 5vw;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.character {
+  flex: 1;
+  max-width: 100%;
+}
+}
+.action_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.log ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.action_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.log {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  max-height: none; /* removendo limite e scroll */
+  overflow: hidden;
+}
+
+.character_image {
+  display: flex;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+
+.life_bar {
+  width: 360px; /* largura fixa para todas */
+  background: #444;
+  height: 20px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 auto; /* centraliza a barra dentro do personagem */
+}
+
+.life_fill {
+  height: 100%;
+  background: red;
+  transition: width 0.3s ease;
+}
+
+.life_text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  top: 0;
+  line-height: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.button {
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #444;
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.button:disabled {
+  background: transparent;
+  color:rgb(180, 180, 180);
+  cursor: not-allowed;
+}
+
+.upgrade,
+.post_battle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #171616; /* mesmo fundo da tela de início */
+  justify-content: center;
+  color: white;
+  z-index: 9999; /* fica por cima de tudo */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.log ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.log h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.log li {
+  margin-bottom: 0.4rem;
+}
+
+.fullscreen_centered {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #171616; /* mesmo fundo da tela de início */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 9999; /* fica por cima de tudo */
+  text-align: center;
+}
