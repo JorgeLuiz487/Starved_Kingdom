@@ -1,4 +1,4 @@
-# Prohjeto simples de jogo em Next.js
+# Projeto simples de jogo de RPG de Turnos em Next.js
 
 Este é um projeto de rpg de turnos simples feito com Next.js e CSS Modules. 
 todos os assets em assets/images foram desenhados pelo autor.
